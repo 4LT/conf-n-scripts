@@ -13,13 +13,13 @@ function CodeLines()
     nunmap k
     xunmap j
     xunmap k
+    set nolbr
 endfunction
-command CodeMode call CodeLines()
 
 function TextLines()
     nmap j gj
     nmap k gk
     xmap j gj
     xmap k gk
+    set lbr
 endfunction
-command TextMode call TextLines()
