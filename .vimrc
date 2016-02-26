@@ -7,6 +7,7 @@ set expandtab
 set nu
 highlight MatchParen ctermbg=darkblue
 highlight ColorColumn ctermfg=black ctermbg=yellow
+syntax on
 
 function CodeLines()
     nunmap j
