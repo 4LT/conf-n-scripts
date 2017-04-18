@@ -7,12 +7,14 @@ set expandtab
 set nu
 highlight MatchParen ctermbg=darkblue
 highlight ColorColumn ctermfg=black ctermbg=yellow
+syntax on
 
 function CodeLines()
     nunmap j
     nunmap k
     xunmap j
     xunmap k
+    set cc=81
     set nolbr
 endfunction
 
@@ -21,5 +23,6 @@ function TextLines()
     nmap k gk
     xmap j gj
     xmap k gk
+    set cc=0
     set lbr
 endfunction
